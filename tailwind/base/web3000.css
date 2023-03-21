@@ -1,0 +1,80 @@
+/*********************
+web3000 STYLES 
+*********************/
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	/* -webkit-perspective: 1000; */
+	/* overflow: -moz-scrollbars-none; */
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+	-webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+	outline: none !important;
+	max-height: 1000000px;
+}
+
+* {
+	box-sizing: border-box !important;
+}
+
+html.android,
+html.android body {
+	height: auto;
+}
+
+.no-scrollbar {
+	overflow: -moz-scrollbars-none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+p {
+	-ms-word-wrap: normal;
+	word-break: break-word;
+	word-wrap: normal;
+	/* -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+        hyphens: auto;
+      sets a minimum number of characters before and after the break
+     -webkit-hyphenate-before: 2;
+          hyphenate-lines: 3;
+      enabling fancy ligatures when available
+      -webkit-font-feature-settings: "liga", "dlig";
+      -moz-font-feature-settings: "liga=1, dlig=1";
+      -ms-font-feature-settings: "liga", "dlig";
+      -o-font-feature-settings: "liga", "dlig";
+      font-feature-settings: "liga", "dlig";
+     -webkit-hyphens: none;
+     -moz-hyphens:    none;
+     -ms-hyphens:     none;
+     hyphens:         none; */
+}
+
+.blur-up {
+	filter: blur(5px);
+	transition: filter 400ms;
+}
+
+.blur-up.lazyloaded {
+	filter: blur(0);
+}
+
+.swup-transition-fade {
+	opacity: 1;
+	transition: opacity 0.25s ease;
+}
+
+/* body.home.swupReady .swup-transition-fade {
+     transition-delay: 1.3s;
+ } */
+html.is-animating .swup-transition-fade {
+	opacity: 0;
+}

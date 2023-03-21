@@ -1,0 +1,11 @@
+:root {
+	--socialIcon: 0.4rem;
+	--hamburgerHeight: 0.5rem;
+	--color-primary: #fff000;
+}
+
+@media (min-width: 1024px) {
+	:root {
+		--socialIcon: 0.45rem;
+	}
+}

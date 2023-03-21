@@ -1,0 +1,10 @@
+.swiper-button {
+	@apply absolute z-10 cursor-pointer;
+}
+
+.swiper-button-prev {
+	@apply left-0;
+}
+.swiper-button-next {
+	@apply right-0;
+}

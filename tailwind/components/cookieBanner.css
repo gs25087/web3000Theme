@@ -1,0 +1,11 @@
+#cookie-popup.active {
+	@apply translate-y-[0%] !important;
+}
+
+.cookie-arrow .arrow-down {
+	@apply h-[1.27em] w-[1.27em] transition-transform  duration-500 ease-in lg:h-[1.15em] lg:w-[1.15em];
+}
+
+.show-cookie-text .cookie-arrow .arrow-down {
+	@apply rotate-180;
+}

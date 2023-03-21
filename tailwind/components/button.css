@@ -1,0 +1,27 @@
+.hf-btn {
+	@apply flex h-10 w-fit cursor-pointer flex-col flex-nowrap justify-around rounded-full px-4 font-bold transition-colors duration-300 ease-in;
+}
+
+.hf-btn--black {
+	@apply bg-darkgray text-white lg:hover:bg-black;
+}
+
+.hf-btn--event {
+	@apply px-[1.88rem];
+}
+
+.hf-btn--cat {
+	@apply text-white lg:hover:bg-black !important;
+}
+
+.hf-btn--hero {
+	@apply relative bottom-16;
+}
+
+.hf-btn--tile {
+	@apply h-auto rounded-[1.5em] bg-white py-[0.83rem]  px-[1.11rem] text-black lg:px-4 lg:pt-[0.65rem] lg:pb-[0.75rem];
+}
+
+.hf-btn--centered {
+	@apply mx-auto;
+}

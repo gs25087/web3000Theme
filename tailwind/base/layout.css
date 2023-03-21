@@ -1,0 +1,29 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `base` layer
+ *
+ * “Add things like base typography styles [or] opinionated global resets.”
+ *
+ * — from https://tailwindcss.com/docs/plugins#adding-base-styles
+ */
+
+/**
+ * This uses the background and foreground colors declared in the
+ * `theme.json` file and is applied both to the frontend and in the block
+ * editor.
+*/
+
+html {
+	@apply overflow-y-scroll text-[4.725vw] md:text-[2.2vw] lg:text-[1.376vw];
+	@apply mddown:text-[4.725vmin];
+}
+body {
+	@apply bg-background text-foreground flex min-h-screen flex-col font-sans;
+}
+
+.wrap {
+	@apply px-wrapMobile lg:px-wrapDesktop;
+}
+
+section {
+	@apply py-8;
+}

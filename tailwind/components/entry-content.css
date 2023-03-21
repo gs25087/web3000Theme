@@ -1,0 +1,31 @@
+.entry-content h1 + h2 {
+	@apply mb-7;
+}
+
+.entry-content p,
+.entry-content ul,
+.entry-content ol {
+	@apply mb-4 last:mb-0 lg:max-w-[34rem];
+}
+
+.entry-content ul,
+.entry-content ol {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.entry-content ol {
+	list-style-type: decimal;
+}
+
+.entry-content a {
+	@apply underline lg:hover:no-underline;
+}
+
+.entry-content--textColor p {
+	@apply mb-6;
+}
+
+accordion-item-element accordion-item {
+	@apply mb-4 overflow-hidden rounded-md border border-[gray];
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <polygon id="path-1" points="0 0 21 0 21 3 0 3"></polygon>
+        <polygon id="path-3" points="0 0 21 0 21 3 0 3"></polygon>
+        <polygon id="path-5" points="0 0 21 0 21 3 0 3"></polygon>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.526604062">
+        <g id="Production-Copy-2" transform="translate(-884.000000, -85.000000)">
+            <g id="Group-2-Copy-2" transform="translate(103.000000, 67.000000)">
+                <g id="Group" transform="translate(781.000000, 18.000000)">
+                    <g id="211118_COR_APPARTEMENT_1740-Copy-7" transform="translate(10.500000, 8.500000) scale(1, -1) translate(-10.500000, -8.500000) translate(0.000000, 7.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#B6B7BC" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="211118_COR_APPARTEMENT_1740-Copy-9" transform="translate(10.500000, 1.500000) scale(1, -1) translate(-10.500000, -1.500000) ">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#B6B7BC" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="211118_COR_APPARTEMENT_1740-Copy-8" transform="translate(10.500000, 15.500000) scale(1, -1) translate(-10.500000, -15.500000) translate(0.000000, 14.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Mask" fill="#B6B7BC" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

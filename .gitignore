@@ -1,0 +1,13 @@
+/node_modules
+/vendor
+.DS_Store
+script.min.js
+style.css
+style-editor.css
+web3000theme.zip
+notes.txt
+prepros.config
+stats.html
+metadata.json
+.history
+.env

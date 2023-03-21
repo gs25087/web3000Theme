@@ -1,0 +1,15 @@
+.hamburger {
+	@apply right-0 ml-auto lg:pt-0 !important;
+}
+
+.nav-desktop .menu-item {
+	@apply mr-4 last:mr-0;
+}
+
+.nav-mobile {
+	@apply -z-10 opacity-0 transition-opacity duration-100 ease-in-out;
+}
+
+.nav-mobile.show {
+	@apply z-40 opacity-100;
+}
